@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+opencv-python
+ultralytics
+pyserial
+zeroconf
+requests
+python-dotenv
+sse-starlette
+sseclient-py

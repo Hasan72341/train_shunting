@@ -1,0 +1,35 @@
+robot-detect-project/
+├─ backend/
+│  ├─ __init__.py
+│  ├─ yolo_server.py
+│  ├─ detection_config.py
+│  ├─ serial_discovery.py
+│  └─ utils/
+│     ├─ zeroconf_register.py
+│     └─ discovery_http.py
+├─ serial_cmds/
+│  ├─ __init__.py
+│  ├─ stop.py
+│  ├─ forward.py
+│  └─ reverse.py
+├─ orchestrator/
+│  ├─ __init__.py
+│  ├─ main.py
+│  ├─ events_client.py
+│  └─ mdns_discover.py
+├─ scripts/
+│  ├─ init_all.py
+│  └─ stop_all.py
+├─ frontend/
+│  ├─ package.json
+│  ├─ vite.config.js
+│  └─ src/
+│     ├─ index.jsx
+│     ├─ App.jsx
+│     └─ components/
+│        ├─ ControlPanel.jsx
+│        ├─ LiveFrame.jsx
+│        └─ DetectionLog.jsx
+├─ requirements.txt
+├─ .env.example
+└─ README.md
